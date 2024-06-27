@@ -52,7 +52,7 @@ router.get("/", ...isAdmin, async (req, res, next) => {
   }
 });
 
-
+//login
 router.post("/login", validateLogin, async (req, res, next) => {
   try {
     const jwt = await usersService.loginUser(req.body);
@@ -61,7 +61,7 @@ router.post("/login", validateLogin, async (req, res, next) => {
     next(e);
   }
 });
-
+ //register
 router.post("/", validateUser, async (req, res, next) => {
   try {
     const result = await usersService.createUser(req.body);

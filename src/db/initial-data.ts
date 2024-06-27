@@ -60,7 +60,7 @@ const users = [
   ];
   const cards = [
     {
-      title: "a wonderful new card",
+      title: "card 1",
       subtitle: "a test value for this card",
       description: "a test value for new card\na test value for new card\n",
       phone: "050-3211234",
@@ -80,7 +80,27 @@ const users = [
       },
     },
     {
-      title: "a wonderful new card",
+      title: "card 2",
+      subtitle: "another test value for this card",
+      description: "a test value for new card\na test value for new card\n",
+      phone: "050-3211234",
+      email: "qwe@gmail.com",
+      web: "https://www.bing.com",
+      image: {
+        url: "https://img.izismile.com/img/img13/20201030/640/you_have_never_seen_something_like_this_640_36.jpg",
+        alt: "image of something",
+      },
+      address: {
+        state: "IL",
+        country: "Israel",
+        city: "Tel aviv",
+        street: "Shoham",
+        houseNumber: 5,
+        zip: "8920435",
+      },
+    },
+    {
+      title: "card 3",
       subtitle: "another test value for this card",
       description: "a test value for new card\na test value for new card\n",
       phone: "050-3211234",

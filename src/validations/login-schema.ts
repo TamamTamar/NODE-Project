@@ -3,7 +3,7 @@ import { ILogin } from "../@types/@types";
 import { passwordRegex } from "./patterns";
 
 const loginSchema = Joi.object<ILogin>({
-    email: Joi.string().email().min(5).max(20).required(),
+    email: Joi.string().email().min(6).max(20).required(),
     password: Joi.string().pattern(passwordRegex).required()
 });
 
